@@ -20,8 +20,8 @@ import { text } from 'stream/consumers';
  * In a real application, your backend service would provide these to the client
  * application after the user goes through your authentication flow.
  */
-const USER_ID = '8:acs:b6aada1f-0b1d-47ac-866f-91aae00a1d01_00000015-0208-6955-5b3d-8e3a0d007b2d';
-const TOKEN = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJza3lwZWlkIjoiYWNzOmI2YWFkYTFmLTBiMWQtNDdhYy04NjZmLTkxYWFlMDBhMWQwMV8wMDAwMDAxNS0wMjA4LTY5NTUtNWIzZC04ZTNhMGQwMDdiMmQiLCJzY3AiOjE3OTIsImNzaSI6IjE2NjgwOTQwMTgiLCJleHAiOjE2NjgxODA0MTgsImFjc1Njb3BlIjoiY2hhdCx2b2lwIiwicmVzb3VyY2VJZCI6ImI2YWFkYTFmLTBiMWQtNDdhYy04NjZmLTkxYWFlMDBhMWQwMSIsInJlc291cmNlTG9jYXRpb24iOiJ1bml0ZWRzdGF0ZXMiLCJpYXQiOjE2NjgwOTQwMTh9.jlzI0NTQSWxmCGL6XzMTG9i5NDzrWR11vHeFXSVbzPRlFOAD32MhTAjf1dHo82ox4zgW-nZghvIsIP0k2qTqDCZbSh415bVHWp375ieYqZOZxcSnT1_Y0q7lpgLCEzGX9STSdGIPEcXg9XRA1FDSCzPv0FcW7RIaXHxokyOdXcqYHFyDTve-voeloRgvznKfwEEkw_OOId8DI-C59XPmjN8iG3R3Sf6kijWo40ukY2M88Ov6xeuOCBCjj76U2TF7M9if-du8lRoDVNjt1-_QYB58dqD7hvKtU6KUzeS9pZSNVbu9zqdYqKbqg548q41MZAS6yeJGISpoSOrTqIOeBQ';
+const USER_ID = '';//INSERT USER ID
+const TOKEN = '';//INSERT ACCESS TOKEN
 
 /**
  * Display name for the local participant.
@@ -38,7 +38,7 @@ const DISPLAY_NAME = 'David';
  * https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/telephony/get-phone-number
  *
  */
-const ALTERNATE_CALLER_ID = '+18448078409';
+const ALTERNATE_CALLER_ID = ''; //INSER PHONE NUMBER
 
 /**
  * Entry point of your application.
